@@ -1,0 +1,31 @@
+.contatti-box{
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 59%;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 1rem;
+}
+
+.icon{
+    witdh:80px;
+    height: 50px;
+    margin-top: 0.5rem;
+}
+
+.contact-list li{
+    list-style: none;
+}
+
+.contact-list {
+    padding:0;
+}
+
+@media (max-width:391px){
+    .contatti-box{
+        width:76%
+    }
+}
