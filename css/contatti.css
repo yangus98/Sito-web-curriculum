@@ -34,4 +34,8 @@
     .contatti-box{
         width:76%
     }
+
+    #dynamic-contatti{
+        font-size: 20px;
+    }
 }

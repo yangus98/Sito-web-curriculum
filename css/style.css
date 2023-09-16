@@ -68,7 +68,7 @@ ul{
 }
 
 body{
-    background-color: #8000FF;
+    background-color: #D7D6D6;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -99,6 +99,7 @@ a{
     width:85%;
     justify-content: center;
     margin: auto;
+    margin-top: 15px
 }
 
 .static-txt, .wrapper{
@@ -111,19 +112,11 @@ a{
     font-size: 39.5px;
 }
 
-#dynamic-txt:hover{
-    color: white;
-}
-
 a:hover{
     -webkit-animation:rainbow 1s infinite;
     -ms-animation:rainbow 1s infinite;
     -o-animation:rainbow 1s infinite;
     animation:rainbow 1s infinite;
-}
-
-.dynamic-txt h1:hover{
-    color:white;
 }
 
 .image-container{
@@ -151,9 +144,9 @@ a:hover{
 
 .gif-styling{
     width: 100%;
-    height: 211px;
-    margin-top:0.5rem;
-    border-radius: 10px
+    height: 150px;
+    border-radius: 10px;
+    padding-top:0.5rem
 }
 
 @media (max-width: 768px) {
@@ -274,7 +267,11 @@ a:hover{
         text-align:center;
     }
 
-    .static-txt, .dynamic-txt h1, .wrapper{
+    .static-txt, .wrapper{
+        font-size: 20px;
+    }
+
+    #dynamic-txt{
         font-size: 20px;
     }
 

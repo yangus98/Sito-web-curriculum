@@ -31,4 +31,8 @@
     .formazione-box{
         width:76%
     }
+
+    #dynamic-formazione{
+        font-size: 20px;
+    }
 }
