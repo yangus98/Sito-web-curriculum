@@ -24,6 +24,12 @@
     padding:0;
 }
 
+#dynamic-contatti{
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 39.5px;
+}
+
 @media (max-width:391px){
     .contatti-box{
         width:76%

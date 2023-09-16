@@ -26,6 +26,12 @@
     animation:rainbow 1s infinite;
 }
 
+#dynamic-progetti{
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 39.5px;
+}
+
 @media (max-width:391px){
     .lavoro-box{
         width:76%

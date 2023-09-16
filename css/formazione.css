@@ -21,6 +21,12 @@
    font-weight:bold; 
 }
 
+#dynamic-formazione{
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 39.5px;
+}
+
 @media (max-width:391px){
     .formazione-box{
         width:76%

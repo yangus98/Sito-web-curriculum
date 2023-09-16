@@ -2,11 +2,6 @@
 @import url(contatti.css);
 @import url(progetti.css);
 
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
 @-webkit-keyframes rainbow {
     0% {color: #ff0000;}
     10% {color: #ff8000;}
@@ -106,19 +101,18 @@ a{
     margin: auto;
 }
 
-.static-txt, .dynamic-txt h1, .wrapper{
+.static-txt, .wrapper{
     font-size: 39.5px;
 }
 
-.dynamic-txt h1{
-    padding-left: 1rem;
-    overflow: hidden;
-    border-right: .15em black;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: 
-      typing 3.5s steps(40, end)  
+#dynamic-txt{
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 39.5px;
+}
+
+#dynamic-txt:hover{
+    color: white;
 }
 
 a:hover{
