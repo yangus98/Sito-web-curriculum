@@ -21,6 +21,10 @@
    font-weight:bold; 
 }
 
+.p-body{
+    text-align: justify;
+}
+
 #dynamic-formazione{
     font-weight: bold;
     padding-left: 10px;

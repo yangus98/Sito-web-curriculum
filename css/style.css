@@ -139,7 +139,8 @@ a:hover{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     font-size: 18px;
-    padding: 0.5rem
+    padding: 0.5rem;
+    text-align: justify;
 }
 
 .gif-styling{
